@@ -22,7 +22,7 @@ int x = 0;
 // the setup routine runs once when you press reset:
 void setup() {                
   // initialize the digital pins as outputs.
-  Serial.begin(9600); // Starting Serial Terminal
+  Serial.begin(9600);
   pinMode(pinA, OUTPUT);     
   pinMode(pinB, OUTPUT);     
   pinMode(pinC, OUTPUT);     
